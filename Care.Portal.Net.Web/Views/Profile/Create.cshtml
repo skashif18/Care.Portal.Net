@@ -1,0 +1,63 @@
+﻿@model JobPortal.Data.Models.Datamodel.Profile
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+
+<div class="container">
+    @using (Html.BeginForm("Create", "Profile", FormMethod.Post))
+    {
+        @Html.ValidationSummary(false)
+        @Html.HiddenFor(model=>model.CreatedDate,new { @value=DateTime.Now })
+        
+        <div class="form-control-container">
+
+            @Html.LabelFor(model => model.FirstName)
+            @Html.TextBoxFor(model => model.FirstName, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.FirstName)
+        </div>
+
+        <div class="form-control-container">
+
+            @Html.LabelFor(model => model.LastName)
+            @Html.TextBoxFor(model => model.LastName, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.LastName)
+        </div>
+
+        <div class="form-control-container">
+
+            @Html.LabelFor(model => model.Email)
+            @Html.TextBoxFor(model => model.Email, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Email)
+        </div>
+
+        <div class="form-control-container">
+
+            @Html.LabelFor(model => model.Mobile)
+            @Html.TextBoxFor(model => model.Mobile, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Mobile)
+        </div>
+
+        <div class="form-control-container">
+
+            @Html.LabelFor(model => model.JobTitleId)
+            @Html.TextBoxFor(model => model.JobTitleId, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.JobTitleId)
+        </div>
+
+        <div class="form-control-container">
+
+            @Html.LabelFor(model => model.IsActive)
+            @Html.CheckBoxFor(model => model.IsActive)
+            @Html.ValidationMessageFor(model => model.IsActive)
+        </div>
+        <div class="button-container">
+            <button type="submit"> Create</button>
+        </div>
+
+
+
+    }
+</div>

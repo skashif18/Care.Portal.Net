@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Care.Portal.Net.Web", "Care.Portal.Net.Web\Care.Portal.Net.Web.csproj", "{5B6164FD-28C2-4B93-B91C-74CDE8DF0C93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobPortal.Data", "JobPortal.Data\JobPortal.Data.csproj", "{ECBCFCC7-DBF1-4A0C-A1A4-D476A1C908D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B6164FD-28C2-4B93-B91C-74CDE8DF0C93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B6164FD-28C2-4B93-B91C-74CDE8DF0C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B6164FD-28C2-4B93-B91C-74CDE8DF0C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B6164FD-28C2-4B93-B91C-74CDE8DF0C93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECBCFCC7-DBF1-4A0C-A1A4-D476A1C908D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECBCFCC7-DBF1-4A0C-A1A4-D476A1C908D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECBCFCC7-DBF1-4A0C-A1A4-D476A1C908D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECBCFCC7-DBF1-4A0C-A1A4-D476A1C908D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4335E196-12F0-4333-866E-967BE4F973E9}
+	EndGlobalSection
+EndGlobal
